@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Ed Rudolph | Photo Gallery</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+</head>
+<body class="gallery-page">
+    <div class="tabsdiv">
+        <ul class="tabs">
+            <li><a href="about.html">About</a></li>
+            <li><a href="upcoming.html">Upcoming</a></li>
+            <li class="active"><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="header">
+        <h1 class="title">Photo</h1>
+        <h1 class="title">Gallery</h1>
+    </div>
+    <div class="gallery-wrapper">
+        <div class="gallery">
+            <a href="gallery 0.jpg">
+                <img class="gallery-thumb" src="gallery 0nail.jpg" alt="Alex Whitecock Photography"/>
+            </a>
+            <a href="gallery 1.jpg">
+                <img class="gallery-thumb" src="gallery 1nail.jpg" alt="Alex Whitecock Photography"/>
+            </a>
+            <a href="gallery 2.jpg">
+                <img class="gallery-thumb" src="gallery 2nail.jpg" alt="Alex Whitecock Photography"/>
+            </a>
+            <a href="gallery 3.jpg">
+                <img class="gallery-thumb" src="gallery 3nail.jpg" alt="Alex Whitecock Photography"/>
+            </a>
+            <a href="gallery 4.jpg">
+                <img class="gallery-thumb" src="gallery 4nail.jpg" alt="Alex Whitecock Photography"/>
+            </a>
+            <a href="gallery 5.jpg">
+                <img class="gallery-thumb" src="gallery 5nail.jpg" alt="Alex Whitecock Photography"/>
+            </a>
+            <a href="gallery 6.jpg">
+                <img class="gallery-thumb" src="gallery 6.jpg" alt="Justin Allen"/>
+            </a>
+            <a href="gallery 7.jpg">
+                <img class="gallery-thumb" src="gallery 7nail.jpg" alt="Emmet Kowler"/>
+            </a>
+            <a href="gallery 8.jpg">
+                <img class="gallery-thumb" src="gallery 8nail.jpg" alt="Ashley Dial"/>
+            </a>
+            <a href="gallery 9.jpg">
+                <img class="gallery-thumb" src="gallery 9.jpg" alt="Ashley Dial"/>
+            </a>
+            <a href="gallery 10.jpg">
+                <img class="gallery-thumb" src="gallery 10nail.jpg" alt="Ashley Dial"/>
+            </a>
+            <a href="gallery 11.jpg">
+                <img class="gallery-thumb" src="gallery 11nail.jpg" />
+            </a>
+            <a href="gallery 12.jpg">
+                <img class="gallery-thumb" src="gallery 12.jpg" alt="Alex Whitecock Photography"/>
+            </a>
+            <a href="gallery 13.jpg">
+                <img class="gallery-thumb" src="gallery 13.jpg" alt="Alex Whitecock Photography"/>
+            </a>
+            <a href="gallery 14.jpg">
+                <img class="gallery-thumb" src="gallery 14.jpg" alt="Alex Whitecock Photography"/>
+            </a>
+            <a href="gallery 15.jpg">
+                <img class="gallery-thumb" src="gallery 15.jpg" alt="Alex Whitecock Photography"/>
+            </a>
+        </div>
+    </div>
+    <script type="text/javascript">
+    baguetteBox.run('.gallery', {
+    captions: function(element) {
+        return element.getElementsByTagName('img')[0].alt;
+    }
+});
+    </script>
+</body>
+</html>
