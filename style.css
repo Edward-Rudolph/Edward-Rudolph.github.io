@@ -149,7 +149,12 @@ li.active {
 
 .social-linksdiv {
     float: right;
-    margin-right: 20em
+    margin-right: 20em;
+    text-shadow:
+    -1px -1px 0 rgba(255, 255, 255, 0.25),
+    1px -1px 0 rgba(255, 255, 255, 0.25),
+    -1px 1px 0 rgba(255, 255, 255, 0.25),
+    1px 1px 0 rgba(255, 255, 255, 0.25);
 }
 .social-links {
     list-style-type: none;
@@ -168,7 +173,7 @@ li.active {
     font-weight: bold;
 }
 .social-linksdiv {
-    background-color: rgba(255, 255, 255, 0.075);
+    background-color: rgba(255, 255, 255, 0.00);
     outline: 0px solid white;
     float: right;
     margin-right: 20em
