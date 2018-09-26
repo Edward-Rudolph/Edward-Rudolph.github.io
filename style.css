@@ -28,6 +28,7 @@ body.contact {
     background-image: url("Backgrounds/bg4.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position:top;
     background-color: white;
 
 }
@@ -145,10 +146,7 @@ li.active {
     -1px 1px 0 rgba(255, 255, 255, 0.25),
     1px 1px 0 rgba(255, 255, 255, 0.25);
 }
-.c-sub {
-    margin-left: 29em
 
-}
 .social-linksdiv {
     float: right;
     margin-right: 20em
@@ -169,3 +167,9 @@ li.active {
     font-size: 1.5em;
     font-weight: bold;
 }
+.social-linksdiv {
+    background-color: rgba(0, 0, 0, 0.01);
+    outline: 0px solid white;
+    float: right;
+    margin-right: 20em
+  }
